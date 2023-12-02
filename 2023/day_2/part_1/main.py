@@ -8,7 +8,7 @@ limits = {"red": 12, "green": 13, "blue": 14}
 
 
 def key(num_colour):
-    num_colour[1]  # Return the colour
+    return num_colour[1]  # Return the colour
 
 
 games = {
