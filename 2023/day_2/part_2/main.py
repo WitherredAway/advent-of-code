@@ -30,7 +30,9 @@ games = {
 }
 
 possible = [
-    [x := 1, [x := x * i for i in max_cubes.values()]][-1][-1]  # prod using list comprehension, thanks oli
+    [x := 1, [x := x * i for i in max_cubes.values()]][-1][
+        -1
+    ]  # prod using list comprehension, thanks oli
     for max_cubes in games.values()
 ]
 
