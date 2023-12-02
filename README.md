@@ -1,1 +1,1 @@
-My [Advent of Code](https://adventofcode.com) answers
+My cursed [Advent of Code](https://adventofcode.com) answers
