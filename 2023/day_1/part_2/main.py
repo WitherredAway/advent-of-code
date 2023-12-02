@@ -1,6 +1,8 @@
 with open("2023/day_1/part_2/input.txt", "r") as f:
     inp = f.read()
-    for digit, word in enumerate(["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"]):
+    for digit, word in enumerate(
+        ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"]
+    ):
         # Replace the spelled out digit for every digit
         # with: the spelled out digit with the digit in the middle
         # e.g. eightwothree -> ei8ght2woth3ree
